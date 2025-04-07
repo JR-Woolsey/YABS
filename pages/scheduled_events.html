@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/general.css" />
+        <!--- <script type="text/javascript" src="scripts/general.js"></script> --->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+
+        <title>YABS</title>
+    </head>
+    
+    
+    <body>
+        <div class="content-wrap">
+    <div class="header rounded-xl">
+        <h1>Your Amazing Beautiful Self</h1>
+        
+        </div>
+    <nav class="topnav rounded-lg">
+    <ul class="navlist">
+        <div class="navbtn">
+            <a href="../index.html">Home</a>
+        </div>
+    <li class="navbtn"><a href="#">Affiliates</a>
+        <div class="dropdown-content">
+            <a href="yu.html">Yu</a>
+            <a href="younique.html">Younique</a>
+            <a href="topfoxx.html">TopFoxx</a>
+            <a href="lange.html">L`ange</a>
+        </div> 
+    </li>
+        <div class="navbtn">
+            <a href="events.html">Events</a>
+        </div>
+        <div class="navbtn">
+            <a href="about.html">About</a>
+        </div>
+        <a class="navlink modal-open" href="#">Contact</a>
+    </ul>
+        <a class="logo" href="#">Y.A.B.S</a>
+    </nav>
+    <nav class="mobilenav">
+        <a href="../index.html" class="toplinks">Home</a>
+        <div class="affiliates-container">
+            <a href="#" class="toplinks">Affiliates</a>
+            <a href="javascript:" class="icon" onclick="togglemblmenu();">
+                <div class="mobilenaviconbars"></div>
+                <div class="mobilenaviconbars"></div>
+                <div class="mobilenaviconbars"></div>
+            </a>
+
+        </div>
+            <a href="events.html" class="toplinks">Events</a>
+            <a href="about.html" class="toplinks">About</a>
+            <a href="#" class="toplinks modal-open">Contact</a>
+        
+        <div id="mbl-links">
+            <a href="yu.html">Yu</a>
+            <a href="younique.html">Younique</a>
+            <a href="topfoxx.html">TopFoxx</a>
+            <a href="lange.html">L`ange</a>
+        </div>
+    </nav>  
+    
+ 
+        <div class="card shadow-lg rounded-xl">
+                <ul id="accordion">
+            <li>
+                <label for="day-29">Yu New Product Launch April 29 2024 <span>&#x276f</span>
+                </label>
+                <input type="radio" name="accordion" id="day-29">
+                <div class="content">
+                    Introducing the new flavor sensation from Yu: Raspberry and Cotton Candy Collagen! 
+                    YU is thrilled to unveil the latest breakthrough product, a uniquely flavored collagen supplement 
+                    that combines the delightful tastes of raspberry and cotton candy. This new offering is designed for
+                    those who seek both health benefits and enjoyable flavors in their suppliments. 
+                    
+                </div>
+            </li>
+            
+            <li>
+                <label for="day-27">Younique Lash Party April 27 2024 <span>&#x276f</span>
+                </label>
+                <input type="radio" name="accordion" id="day-27">
+                <div class="content">
+                    Younique is thrilled to announce the upcoming "Lash Party" sale event.
+                    A promotion designed exclusively for lash product lovers!
+                    Customers will enjoy a storewide 15% discount on all lash products and accessories for the whole week.
+                    Whether you are looking to dazzle with new lash styles or simply stock up on your
+                    favorites, the Lash Party is the perfect oppurtunity to enchance your beauty routine without breaking 
+                    the bank.
+                </div>
+            </li>
+            
+            <li>
+                <label for="day-12">TopFoxx Mothers Dale Sale May 12 2024<span>&#x276f</span>
+                </label>
+                <input type="radio" name="accordion" id="day-12">
+                <div class="content">
+                    This Mother's Day give the gift of style and sun protection with TopFoxx sunglasses! 
+                    TopFoxx announces their exclusive Mother's Day Sale which offers a 45% discount on their
+                    entire collection. This one day sale is for wether she loves the classic elegance of 
+                    aviators or the bold statement of oversized frames, you can find the perfect pair to
+                    match your mom's unique style. So shop on Mother's Day and make it unforgettable with a thoughtful gift from TopFoxx!
+                </div>
+            </li>
+            
+            <li>
+                <label for="day-1">L`ange May Monthly Discount May 1 2024<span>&#x276f</span>
+                </label>
+                <input type="radio" name="accordion" id="day-1">
+                <div class="content">
+                    This May treat yourself to the luxury of L`ange hair products and accesories, and enjoy an
+                    exclusive offer that will make your beauty routine even more delightful. Get ready to shop with a
+                    special 25% discount on all your purchases at :`ange. Wether you're looking to revamp your hair care 
+                    regimen or enchance your styling tools collection, L`ange has you covered. 
+                    To take advantage of this month long discount customers just have to use the code 25MAY in the coupon section 
+                    section to automatically recieve your 25% discount.
+                </div>
+            </li>
+        </ul>
+        
+        </div>
+        </div>
+    
+    <div class="footer rounded-lg">
+        <footer class="footer-wrapper">
+            <h2>Jamie Woolsey @ 2024</h2>
+        </footer>
+    </div>
+    
+    <div id="info-modal" class="modal">
+
+    <div class="modal-content">
+    <div class="modal-header">
+        <span id="modal-close" class="close">&times</span>
+            <h2>Contact Us</h2>
+    </div>
+    
+    <div class="modal-body">
+        <form action="" method="post">
+            <fieldset class="contact-fieldset">
+                <legend>Contact Form</legend>
+                
+            <label for="fullName">Name:</label>
+                <input type="text" name="fullName" id="fullName">
+                
+            <label for="fullName">Email:</label>
+                <input type="text" name="email" id="email">
+                
+            <label for="fullName">Phone Number:</label>
+                <input type="tel" name="phone" id="phone">
+                
+            <label for="msg">Message:</label>
+                <textarea name="msg" id="msg"></textarea>
+                
+    <div class="checks">
+        <input type="checkbox" name="copyEmail" id="copyEmail">
+            <label for="copyEmial">Send copy to my E-mail</label>
+    </div>
+    <div class="checks">
+        <p> Preferred method of contact:</p>
+        <input type="radio" name="contact" id="contactEmail" value="email" checked>
+            <label for="contactEmail">Email</label>
+        <input type="radio" name="contact" id="contactTel" value="phone">
+            <label for="contactTel">Phone Call</label>
+        <input type="radio" name="contact" id="contactText" value="text">
+            <label for="contactText">Text Message</label>                    
+    </div>
+        <input type="submit" id="submit" value="Contact Us">
+            </fieldset>
+        </form>
+    </div>
+    
+    <div class="modal-footer">
+        <h2>Thank you for contacting us and have a great day!</h2>
+    </div>
+    </div> 
+</div>   
+        <script type="text/javascript" src="../scripts/general.js"></script> 
+        <script type="text/javascript" src="../scripts/calendar.js"></script>
+        <script type="text/javascript" src="../scripts/events.js"></script>
+    </body>
+</html>

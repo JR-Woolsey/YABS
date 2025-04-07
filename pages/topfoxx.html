@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="../css/general.css" />
+        <!--- <script type="text/javascript" src="scripts/general.js"></script> --->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>YABS</title>
+    </head>
+
+    <body>
+        <div class="content-wrap">
+            <div class="header">
+                <h1>Your Amazing Beautiful Self</h1>
+            </div>
+            <nav class="topnav rounded-lg">
+                <ul class="navlist">
+                    <div class="navbtn">
+                        <a href="../index.html">Home</a>
+                    </div>
+                    <li class="navbtn">
+                        <a href="#">Affiliates</a>
+                        <div class="dropdown-content">
+                            <a href="yu.html">Yu</a>
+                            <a href="younique.html">Younique</a>
+                            <a href="topfoxx.html">TopFoxx</a>
+                            <a href="lange.html">L`ange</a>
+                        </div>
+                    </li>
+                    <div class="navbtn">
+                        <a href="events.html">Events</a>
+                    </div>
+                    <div class="navbtn">
+                        <a href="about.html">About</a>
+                    </div>
+                    <a class="navlink modal-open" href="#">Contact</a>
+                </ul>
+                <a class="logo" href="#">Y.A.B.S</a>
+            </nav>
+            <nav class="mobilenav">
+                <a href="../index.html" class="toplinks">Home</a>
+                <div class="affiliates-container">
+                    <a href="#" class="toplinks">Affiliates</a>
+                    <a
+                        href="javascript:"
+                        class="icon"
+                        onclick="togglemblmenu();">
+                        <div class="mobilenaviconbars"></div>
+                        <div class="mobilenaviconbars"></div>
+                        <div class="mobilenaviconbars"></div>
+                    </a>
+                </div>
+                <a href="events.html" class="toplinks">Events</a>
+                <a href="about.html" class="toplinks">About</a>
+                <a href="#" class="toplinks modal-open">Contact</a>
+
+                <div id="mbl-links">
+                    <a href="yu.html">Yu</a>
+                    <a href="younique.html">Younique</a>
+                    <a href="topfoxx.html">TopFoxx</a>
+                    <a href="lange.html">L`ange</a>
+                </div>
+            </nav>
+
+            <section>
+                <div>
+                    <img
+                        class="page_logo rounded-md"
+                        alt="topfoxx logo"
+                        src="../media/images/topfoxx_logo.jpg" />
+                </div>
+            </section>
+
+            <section class="card shadow-lg rounded-xl">
+                <div>
+                    <p>
+                        TopFoxx was founded by Helen Getts in 2016. A new York
+                        City company that designs unique sunglasses and
+                        accessories. TopFoxx is 100% women owned and all
+                        products are all hand assembled. In 2019 TopFoxx donated
+                        proceeds to the Younique Foundation. In 2020 donated
+                        over 10k+ meals to Food Bank for New York City. Also in
+                        2020 TopFoxx donated proceeds to both Black Girls Code
+                        and the Trevor Project.
+                    </p>
+                    <br />
+                    <p>
+                        TopFoxx creates a assortment of sunglasses for women by
+                        women. Sunglasses have polycarbonated material and revo
+                        coated lenses. Products come in standard form or
+                        perscription form. There are also faded lenses,
+                        polarized, mirrored, and mood boosting lenses. You can
+                        find product in the following shpaes: Oval, Round,
+                        Square, and Diamond.
+                        <br />
+                        <br />
+                        FDA certified shatter resistant lenses and frames are
+                        hand assembled. There are also products that are made
+                        from plants, recycled plastics, and themselves have
+                        recyclable materials. Innovative technology makes the
+                        frames lightweight and the ability to float in water.
+                        Materials are even BPA free.
+                    </p>
+                    <br />
+                    <p>
+                        As an affiliate, I earn from qualifying purchases. This
+                        means if you use my links to buy products, I recieve a
+                        percentage of the sales at no additional cost to you.
+                        Thank you for your support!
+                    </p>
+                </div>
+            </section>
+
+            <div class="card shadow-lg rounded-xl">
+                <div class="gallery-container">
+                    <a
+                        class="img-link"
+                        href="https://topfoxx.com/collections/sunglasses"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="dark rounded framed sunglases"
+                            src="../media/images/topfoxx/sunglasses.jpg" />
+                    </a>
+
+                    <a
+                        class="img-link"
+                        href="https://topfoxx.com/collections/prescription-sunglasses"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="thick black perscription sunglasses"
+                            src="../media/images/topfoxx/perscription.jpg" />
+                    </a>
+
+                    <a
+                        class="img-link"
+                        href="https://topfoxx.com/collections/blue-light-blockers"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="blue light glasses"
+                            src="../media/images/topfoxx/bluelight.jpg" />
+                    </a>
+
+                    <a
+                        class="img-link"
+                        href="https://topfoxx.com/collections/accessories"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="glasses accessories"
+                            src="../media/images/topfoxx/accessories.jpg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer rounded-lg">
+            <footer class="footer-wrapper">
+                <h2>Jamie Woolsey @ 2024</h2>
+            </footer>
+        </div>
+
+        <div id="info-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="modal-close" class="close">&times</span>
+                    <h2>Contact Us</h2>
+                </div>
+
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <fieldset class="contact-fieldset">
+                            <legend>Contact Form</legend>
+
+                            <label for="fullName">Name:</label>
+                            <input type="text" name="fullName" id="fullName" />
+
+                            <label for="fullName">Email:</label>
+                            <input type="text" name="email" id="email" />
+
+                            <label for="fullName">Phone Number:</label>
+                            <input type="tel" name="phone" id="phone" />
+
+                            <label for="msg">Message:</label>
+                            <textarea name="msg" id="msg"></textarea>
+
+                            <div class="checks">
+                                <input
+                                    type="checkbox"
+                                    name="copyEmail"
+                                    id="copyEmail" />
+                                <label for="copyEmial"
+                                    >Send copy to my E-mail</label
+                                >
+                            </div>
+                            <div class="checks">
+                                <p>Preferred method of contact:</p>
+                                <input
+                                    type="radio"
+                                    name="contact"
+                                    id="contactEmail"
+                                    value="email"
+                                    checked />
+                                <label for="contactEmail">Email</label>
+                                <input
+                                    type="radio"
+                                    name="contact"
+                                    id="contactTel"
+                                    value="phone" />
+                                <label for="contactTel">Phone Call</label>
+                                <input
+                                    type="radio"
+                                    name="contact"
+                                    id="contactText"
+                                    value="text" />
+                                <label for="contactText">Text Message</label>
+                            </div>
+                            <input
+                                type="submit"
+                                id="submit"
+                                value="Contact Us" />
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <h2>Thank you for contacting us and have a great day!</h2>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../scripts/general.js"></script>
+    </body>
+</html>

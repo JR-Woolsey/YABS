@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="../css/general.css" />
+        <!--- <script type="text/javascript" src="scripts/general.js"></script> --->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>YABS</title>
+    </head>
+
+    <body>
+        <div class="content-wrap">
+            <div class="header rounded-xl">
+                <h1>Your Amazing Beautiful Self</h1>
+            </div>
+            <nav class="topnav rounded-lg">
+                <ul class="navlist">
+                    <div class="navbtn">
+                        <a href="../index.html">Home</a>
+                    </div>
+                    <li class="navbtn">
+                        <a href="#">Affiliates</a>
+                        <div class="dropdown-content">
+                            <a href="yu.html">Yu</a>
+                            <a href="younique.html">Younique</a>
+                            <a href="topfoxx.html">TopFoxx</a>
+                            <a href="lange.html">L`ange</a>
+                        </div>
+                    </li>
+                    <div class="navbtn">
+                        <a href="events.html">Events</a>
+                    </div>
+                    <div class="navbtn">
+                        <a href="about.html">About</a>
+                    </div>
+                    <a class="navlink modal-open" href="#">Contact</a>
+                </ul>
+                <a class="logo" href="#">Y.A.B.S</a>
+            </nav>
+            <nav class="mobilenav">
+                <a href="../index.html" class="toplinks">Home</a>
+                <div class="affiliates-container">
+                    <a href="#" class="toplinks">Affiliates</a>
+                    <a
+                        href="javascript:"
+                        class="icon"
+                        onclick="togglemblmenu();">
+                        <div class="mobilenaviconbars"></div>
+                        <div class="mobilenaviconbars"></div>
+                        <div class="mobilenaviconbars"></div>
+                    </a>
+                </div>
+                <a href="events.html" class="toplinks">Events</a>
+                <a href="about.html" class="toplinks">About</a>
+                <a href="#" class="toplinks modal-open">Contact</a>
+
+                <div id="mbl-links">
+                    <a href="yu.html">Yu</a>
+                    <a href="younique.html">Younique</a>
+                    <a href="topfoxx.html">TopFoxx</a>
+                    <a href="lange.html">L`ange</a>
+                </div>
+            </nav>
+
+            <section>
+                <div>
+                    <img
+                        class="page_logo rounded-md"
+                        alt="Yu logo"
+                        src="../media/images/yu_logo.jpg" />
+                </div>
+            </section>
+            <section class="card shadow-lg rounded-xl">
+                <div>
+                    <p>
+                        Yu was created in 2021 by former Younique Black Status
+                        presenter Jenny Peterson. Jenny was looking to for
+                        products that would help her skin and gut health but
+                        could not find any on the market. So she created her
+                        company Yu in hopes to help women just like her.
+                    </p>
+                    <br />
+                    <p>
+                        Yu has several products that can be purchased. There are
+                        collagen, probiotics, greens, and even a hormone
+                        balancing product. The collagen products promote skin,
+                        hair, and bone health. Collagen can come in both flavors
+                        and unflavored. Probiotics promote a healthy gut and
+                        immune system. The Earth and Ocean product is a mix of
+                        superfoods. For women the hormone balancing formula
+                        provides several benefits that affect mood, acne, dull
+                        skin and much more.
+                    </p>
+                    <br />
+                    <p>
+                        As an affiliate, I earn from qualifying purchases. This
+                        means if you use my links to buy products, I recieve a
+                        percentage of the sales at no additional cost to you.
+                        Thank you for your support!
+                    </p>
+                </div>
+            </section>
+            <div class="card shadow-lg rounded-xl">
+                <div class="gallery-container">
+                    <a
+                        class="img-link"
+                        href="https://beautifulyu.com/products/yu-beauty-collagen?selling_plan=3142189296"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="collagen bottle colored yellow"
+                            src="../media/images/Yu/collagen.jpg" />
+                    </a>
+
+                    <a
+                        class="img-link"
+                        href="https://beautifulyu.com/products/protect-probiotic?selling_plan=4668293360"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="probiotic bag colored pink"
+                            src="../media/images/Yu/probiotic.jpg" />
+                    </a>
+
+                    <a
+                        class="img-link"
+                        href="https://beautifulyu.com/products/earth-ocean-greens?selling_plan=4937416944"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="earth and ocean box colored green"
+                            src="../media/images/Yu/earth_ocean.jpg" />
+                    </a>
+
+                    <a
+                        class="img-link"
+                        href="https://beautifulyu.com/products/total-hormone-balance?selling_plan=5110956272"
+                        target="_blank">
+                        <img
+                            class="gallery-img"
+                            alt="hormone box colored pink"
+                            src="../media/images/Yu/hormone.jpg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer rounded-lg">
+            <footer class="footer-wrapper">
+                <h2>Jamie Woolsey @ 2024</h2>
+            </footer>
+        </div>
+
+        <div id="info-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="modal-close" class="close">&times</span>
+                    <h2>Contact Us</h2>
+                </div>
+
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <fieldset class="contact-fieldset">
+                            <legend>Contact Form</legend>
+
+                            <label for="fullName">Name:</label>
+                            <input type="text" name="fullName" id="fullName" />
+
+                            <label for="fullName">Email:</label>
+                            <input type="text" name="email" id="email" />
+
+                            <label for="fullName">Phone Number:</label>
+                            <input type="tel" name="phone" id="phone" />
+
+                            <label for="msg">Message:</label>
+                            <textarea name="msg" id="msg"></textarea>
+
+                            <div class="checks">
+                                <input
+                                    type="checkbox"
+                                    name="copyEmail"
+                                    id="copyEmail" />
+                                <label for="copyEmial"
+                                    >Send copy to my E-mail</label
+                                >
+                            </div>
+                            <div class="checks">
+                                <p>Preferred method of contact:</p>
+                                <input
+                                    type="radio"
+                                    name="contact"
+                                    id="contactEmail"
+                                    value="email"
+                                    checked />
+                                <label for="contactEmail">Email</label>
+                                <input
+                                    type="radio"
+                                    name="contact"
+                                    id="contactTel"
+                                    value="phone" />
+                                <label for="contactTel">Phone Call</label>
+                                <input
+                                    type="radio"
+                                    name="contact"
+                                    id="contactText"
+                                    value="text" />
+                                <label for="contactText">Text Message</label>
+                            </div>
+                            <input
+                                type="submit"
+                                id="submit"
+                                value="Contact Us" />
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <h2>Thank you for contacting us and have a great day!</h2>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../scripts/general.js"></script>
+    </body>
+</html>
